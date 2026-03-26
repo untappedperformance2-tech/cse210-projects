@@ -240,6 +240,7 @@ namespace ScriptureMemorizer
         {
             int totalWords = GetTotalWordCount(scripture);
             int visibleWords = scripture.GetVisibleWordCount();
+            
             int hiddenWords = totalWords - visibleWords;
             double percentage = (double)hiddenWords / totalWords * 100;
             
