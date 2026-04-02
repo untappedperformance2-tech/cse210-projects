@@ -1,3 +1,13 @@
+// EXCEEDING REQUIREMENTS:
+// 1. Added ActivityLog class to track how many times each activity is performed
+// 2. Log saves to mindfulness_log.txt and loads on startup (persistent data)
+// 3. Enhanced breathing animation with expanding/shrinking bars [>>>>    ]
+//    that changes speed (slower on inhale, faster on exhale)
+
+
+
+
+
 using System;
 
 class Program
