@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 
 public class GoalManager
 {
@@ -165,7 +164,6 @@ public class GoalManager
                         SimpleGoal sg = new SimpleGoal(data[0], data[1], int.Parse(data[2]));
                         if (bool.Parse(data[3]))
                         {
-                            // Force completion by recording event (hack)
                             sg.RecordEvent();
                         }
                         _goals.Add(sg);
